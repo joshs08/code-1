@@ -19,7 +19,7 @@ class SpinnakerCamera(GenericCamera):
             "bayer_rggb8": "BayerRG8",
             "mono8": "Mono8",
         }
-        self._trigger_line = 0  # Optically isolated input.
+        self._trigger_line = 2  # Optically isolated input.
 
         # Initialise camera -------------------------------------------------------------------------------------------
         self._cam_list = PYSPINSYSTEM.GetCameras()
